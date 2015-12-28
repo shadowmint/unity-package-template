@@ -11,7 +11,7 @@ See the tests in the `Editor/` folder for each class for usage examples.
 From your unity project folder:
 
     npm init
-    npm install shadowmint/unity-n-core --save
+    npm install TEMPLATE --save
     echo Assets/packages >> .gitignore
     echo Assets/packages.meta >> .gitignore
 
