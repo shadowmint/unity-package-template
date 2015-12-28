@@ -1,3 +1,4 @@
+#if TEMPLATE_TESTS
 using NUnit.Framework;
 
 public class SourceTests {
@@ -7,3 +8,4 @@ public class SourceTests {
     new Source();
   }
 }
+#endif
