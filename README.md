@@ -1,9 +1,6 @@
-# n-input
+# TEMPLATE
 
-Low level input semantics.
-
-Typically prefer to use a high level controller rather than this package
-directly.
+...
 
 ## Usage
 
