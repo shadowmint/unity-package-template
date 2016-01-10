@@ -13,28 +13,35 @@ Installing a NuGet package also has a number of side effects; to quote their web
 
 Finally, it's [technically complex](http://docs.nuget.org/Create/Creating-and-Publishing-a-Package) to setup. Ultimately, it's not the right tool for Unity.
 
-Unity [asset bundles](http://docs.unity3d.com/Manual/AssetBundlesIntro.html) basically extract a set of assets and source files directly into your project, but they have some sever limitations:
+Unity [asset bundles](http://docs.unity3d.com/Manual/AssetBundlesIntro.html) basically extract a set of assets and source files directly into your project, but they have some severe limitations:
 
 - You cannot have an asset bundle with external dependencies.
 - Version control with asset bundles is difficult.
 
-People have [blogged about](http://blog.juiceboxmobile.com/2013/06/19/per-asset-versioning-with-unity-asset-bundles/) the challenges they pose and various ways to solve them, but this repository is here to demonstrate an alternative solution: NPM, the node package manager.
+People have [blogged about](http://blog.juiceboxmobile.com/2013/06/19/per-asset-versioning-with-unity-asset-bundles/) the challenges asset bundles pose and various ways to solve them, but this repository is here to demonstrate an alternative solution: NPM.
 
 ## What's NPM?
+
+NPM is the node package manager.
 
 You can read about it in detail at the npm website:
 
 https://docs.npmjs.com/getting-started/what-is-npm
 
+It's a fully featured robust package manager for the node ecosystem.
+
 Probably the first question is almost certainly going to be:
 
 > ...but, node uses javascript, and I use C# in my project.
 
-...which is true, but npm is a fully featured package manager, and it can do a number of things such as:
+...which is true, but npm isn't tied to just javascript. People use it to distrubte
+styles, images, files and... code in languages other than javascript. It can do a
+number of things such as:
 
 - Distribute source files for any language.
 - Compile native targets cross platform for plugins.
 - Manage complex version hierarchies of dependencies.
+- Use both a central package repository or private source package urls.
 
 ## Using NPM to install a package
 
@@ -242,3 +249,5 @@ Now using FullSeriailizer is as simple as:
 `npm install --save shadowmint/fullserializer`
 
 Tell me that isn't just darn cool.
+
+<3 NPM.
