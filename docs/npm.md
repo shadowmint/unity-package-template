@@ -1,3 +1,5 @@
+![NPM + Unity = <3](https://raw.github.com/shadowmint/unity-package-template/master/docs/images/heart.png)
+
 # Managing Unity packages with NPM
 
 ## What? Why?
