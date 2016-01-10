@@ -3,7 +3,9 @@
 ## What? Why?
 
 C# has a package manager which is already rather good;
-[NuGet](https://www.nuget.org/). However, it's designed around distributing assemblies, not source code.
+[NuGet](https://www.nuget.org/).
+
+However, it's designed around distributing assemblies, not source code.
 
 Installing a NuGet package also has a number of side effects; to quote their website:
 
