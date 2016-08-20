@@ -1,2 +1,6 @@
-public class Source {
+namespace TEMPLATE
+{
+  public class Source 
+  {
+  }
 }
