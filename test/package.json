@@ -11,7 +11,7 @@
     "babel-core": "^5.8.23",
     "colors": "^1.1.2",
     "gulp": "^3.9.0",
-    "gulp-unity": "shadowmint/gulp-unity#0.0.6",
+    "gulp-unity": "shadowmint/gulp-unity#1.0.0",
     "run-sequence": "^1.1.2",
     "xml2js": "^0.4.15"
   }
