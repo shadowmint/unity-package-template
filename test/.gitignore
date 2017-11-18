@@ -46,6 +46,7 @@ Library/CurrentLayout.dwlt
 node_modules
 Assets/build
 Assets/packages
+Assets/Plugins
 Assets/packages.meta
 manifest.json
 manifest.json.meta
@@ -53,3 +54,7 @@ manifest.json.meta
 Library/CrashedAssetImports.txt
 
 EditorTestResults.xml
+ProjectSettings
+UnityPackageManager
+etc
+Library
