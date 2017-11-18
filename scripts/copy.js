@@ -118,7 +118,7 @@ function walkCopy(root, dest, data) {
     };
     let finishedCopy = (path) => {
       fileCount += 1;
-      trace(" copy: (" + fileCount + "/" + files.length + ") " + path);
+      trace(" copy: (" + fileCount + "/" + files.length + ") " + path[1]);
       if (error) {
         reject(error);
       }
