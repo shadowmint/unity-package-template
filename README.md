@@ -26,7 +26,6 @@ Setup and run tests:
     npm install ..
     cd test
     npm install
-    gulp
 
 Remember that changes made to the test folder are not saved to the package
 unless they are copied back into the source folder.
