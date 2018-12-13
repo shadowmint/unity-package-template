@@ -9,7 +9,7 @@ let done = false;
 // Paths
 let root = folders.getInitCwd();
 let src = path.join(__dirname, '..', 'src');
-let pkg = path.join(root, 'Assets', 'packages');
+let pkg = path.join(root, 'Assets', 'pkg-all');
 let isModule = fs.existsSync(path.join(root, 'package.json'));
 
 // Create folder if missing
