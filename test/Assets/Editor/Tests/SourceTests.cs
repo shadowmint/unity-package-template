@@ -1,4 +1,3 @@
-#if TEMPLATE_TESTS
 using NUnit.Framework;
 using TEMPLATE;
 
@@ -13,4 +12,3 @@ namespace Tests.TEMPLATE
     }
   }
 }
-#endif

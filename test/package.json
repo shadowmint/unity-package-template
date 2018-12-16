@@ -6,6 +6,6 @@
   "license": "MIT",
   "dependencies": {
     "unity-TEMPLATE": "file:..",
-    "unity-n-tests": "github:shadowmint/unity-n-tests#1.1.1"
+    "unity-n-tests": "github:shadowmint/unity-n-tests"
   }
 }
