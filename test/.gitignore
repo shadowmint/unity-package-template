@@ -45,9 +45,9 @@ Library/CurrentLayout.dwlt
 
 node_modules
 Assets/build
-Assets/packages
+Assets/pkg-all
 Assets/Plugins
-Assets/packages.meta
+Assets/pkg-all.meta
 manifest.json
 manifest.json.meta
 .vscode
