@@ -48,13 +48,10 @@ Assets/build
 Assets/pkg-all
 Assets/Plugins
 Assets/pkg-all.meta
-manifest.json
-manifest.json.meta
 .vscode
 Library/CrashedAssetImports.txt
 
 EditorTestResults.xml
-ProjectSettings
 UnityPackageManager
 etc
 Library
