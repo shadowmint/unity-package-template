@@ -1,6 +1,4 @@
-.sass-cache
-build
-
+.idea
 obj
 Temp
 *.suo
@@ -9,6 +7,7 @@ Temp
 *.userprefs
 *.sln
 *.csproj
+*.swp
 
 Library/cache
 Library/metadata
@@ -38,9 +37,24 @@ Library/unity editor resources
 Library/ShaderCache/
 Library/shadercompiler-1.log
 Library/shadercompiler-64bit-*.log
+Library/shadercompiler-32bit-*.log
+Library/LastSceneManagerSetup.txt
+Library/shadercompiler-*
+Library/CurrentLayout.dwlt
 .DS_Store
 
 node_modules
+Assets/build
 Assets/packages
+Assets/pkg-all
+Assets/Plugins
+Assets/pkg-all.meta
+.vscode
+Library/CrashedAssetImports.txt
+
+EditorTestResults.xml
+UnityPackageManager
+etc
+Library
 Logs
 UserSettings
